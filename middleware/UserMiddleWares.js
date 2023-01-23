@@ -5,7 +5,7 @@ require('dotenv').config()
 //Our own verification middleware
 exports.VerifyUser = (req, res, next) => {
     let token = req.header('authtoken')
-    console.log(token)
+    // console.log(token)
     if (!token) {
         return res.status(401).json({ errormsg: "please authenticate yourself" })
     }
@@ -14,7 +14,7 @@ exports.VerifyUser = (req, res, next) => {
         req.uid = result.id
         next()
     } catch (error) {
-        console.log(error);
+        // console.log(error);
         return res.status(500).json({ errormsg: "Some internal error occured" })
     }
 }

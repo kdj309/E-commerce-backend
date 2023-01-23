@@ -20,6 +20,8 @@ app.use('/api', require('./routes/product'))
 app.use('/api', require('./routes/order'))
 //!6 payment related routes
 app.use('/api', require('./routes/paymentB'))
+//!7 payment with stripe
+app.use('/api', require('./routes/paywithStripe'))
 app.listen(3001, () => {
     console.log("server running")
 })
