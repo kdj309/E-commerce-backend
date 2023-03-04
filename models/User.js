@@ -1,38 +1,40 @@
-const mongoose = require('mongoose')
-const crypto = require('crypto')
-const { v4: uuidv4 } = require('uuid');
+const mongoose = require("mongoose");
+const crypto = require("crypto");
+const { v4: uuidv4 } = require("uuid");
 
-
-const userSchema = new mongoose.Schema({
-  firstname: {
-    type: String,
-    require: true,
-    maxLength: 15
+const userSchema = new mongoose.Schema(
+  {
+    firstname: {
+      type: String,
+      require: true,
+      maxLength: 15,
+    },
+    lastname: {
+      type: String,
+      maxLength: 15,
+    },
+    email: {
+      type: String,
+      unique: true,
+      maxLength: 25,
+      require: true,
+    },
+    role: {
+      type: Number,
+      default: 0,
+    },
+    encry_password: {
+      type: String,
+      require: true,
+    },
+    purchase: {
+      type: Array,
+      default: [],
+    },
+    salt: String,
   },
-  lastname: {
-    type: String,
-    maxLength: 15
-  },
-  email: {
-    type: String,
-    unique: true,
-    maxLength: 25,
-    require: true
-  },
-  role: {
-    type: Number,
-    default: 0
-  },
-  encry_password: {
-    type: String,
-    require: true
-  },
-  purchase: {
-    type: Array,
-    default: []
-  },
-  salt: String
-}, { timestamps: true })
+  { timestamps: true }
+);
 //!Methods
 userSchema.methods = {
   securePassword: function (plainpassword) {
@@ -48,9 +50,15 @@ userSchema.methods = {
   },
   authenticate: function (plainpassword) {
     return this.securePassword(plainpassword) === this.encry_password;
-  }
+  },
 };
 //!Virtual fields
+userSchema
+  .virtual("fullname")
+  .get(function () {
+    return `${this.firstname} ${this.lastname}`;
+  })
+  .set(function (v) {});
 userSchema
   .virtual("password")
   .set(function (password) {
@@ -62,5 +70,4 @@ userSchema
     return this._password;
   });
 
-
-module.exports = mongoose.model('User', userSchema)
+module.exports = mongoose.model("User", userSchema);
