@@ -73,18 +73,23 @@ exports.createProduct = (req, res) => {
       });
     }
     //destructure the fields
-    const { name, description, price, category, Availabelstock } = fields;
-
+    const {
+      name,
+      description,
+      price,
+      category,
+      Availabelstock,
+      sizevaluesarry,
+    } = fields;
+    console.log(sizevaluesarry);
     if (!name || !description || !price || !category) {
       return res.status(400).json({
         error: "Please include all fields",
       });
     }
-
     let product = new Product(fields);
-
+    product.size = JSON.parse(sizevaluesarry);
     //handle file here
-    // console.log();
     if (file.image) {
       if (file.image.size > 3000000) {
         return res.status(400).json({
@@ -95,14 +100,14 @@ exports.createProduct = (req, res) => {
       product.image.contentType = file.image.type;
       //   console.log(product);
     }
-    // console.log(product);
+    console.log(product);
 
     //save to the DB
     product.save((err, product) => {
       if (err) {
         console.log(err);
         res.status(400).json({
-          error: "Saving tshirt in DB failed",
+          error: `Saving tshirt in DB failed ${err}`,
         });
       }
       res.json(product);
@@ -136,15 +141,45 @@ exports.Updateprodcut = (req, res) => {
   let form = formidable.IncomingForm();
   form.keepExtensions = true;
   form.parse(req, (err, fields, file) => {
-    const { name, description, price, Availabelstock, category, size } = fields;
+    const {
+      name,
+      description,
+      price,
+      Availabelstock,
+      category,
+      sizevaluesarry,
+    } = fields;
 
-    console.log(name, description, price, Availabelstock, category, size);
+    console.log(
+      name,
+      description,
+      price,
+      Availabelstock,
+      category,
+      sizevaluesarry
+    );
     if (err) {
       return res.status(404).json({ errormsg: "File not Found" });
     }
     let tshirt = req.product;
-
-    tshirt = _.extend(tshirt, fields);
+    if (sizevaluesarry) {
+      tshirt.size = JSON.parse(sizevaluesarry);
+    }
+    if (name) {
+      tshirt.name = name;
+    }
+    if (description) {
+      tshirt.description = description;
+    }
+    if (price) {
+      tshirt.price = price;
+    }
+    if (Availabelstock) {
+      tshirt.Availabelstock = Availabelstock;
+    }
+    if (category) {
+      tshirt.category = category;
+    }
     if (file.image) {
       if (file.image.size > 3000000) {
         return res.status(404).json({ errormsg: "image size is too big" });
@@ -174,7 +209,7 @@ exports.Deleteprodcut = (req, res) => {
 };
 //getting all products
 exports.getAllproducts = (req, res) => {
-  let limit = req.query.limit ? parseInt(req.query.limit) : 16;
+  let limit = req.query.limit ? parseInt(req.query.limit) : 25;
   let sortBy = req.query.sortby ? req.query.sortby : "_id";
   Product.find({})
     .select("-image")
@@ -194,9 +229,9 @@ exports.getAllproducts = (req, res) => {
 //middleware to handle Availablestock count and sold count
 exports.UpdateSoldAndstockCount = (req, res, next) => {
   // console.log(req.body.products);
-  if(req.body.order.Status == "Canceled"){
-    next()
-  }else{
+  if (req.body.order.Status == "Canceled") {
+    next();
+  } else {
     let Bulkoperations = req.body.order.products.map((product) => {
       return {
         updateOne: {
@@ -220,7 +255,6 @@ exports.UpdateSoldAndstockCount = (req, res, next) => {
       next();
     });
   }
-  
 };
 //geting unique categories
 exports.getAllUniqueCategories = (req, res) => {
