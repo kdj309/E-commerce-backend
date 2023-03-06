@@ -32,6 +32,9 @@ app.use("/api", require("./routes/paymentB"));
 //!7 payment using stripe
 app.use("/api", require("./routes/paywithStripe"));
 //!8 size related routes
+app.get("/",(req,res)=>{
+      return res.send("server is up and running")
+})
 app.listen(process.env.PORT||3001, () => {
   console.log("server running");
 });
