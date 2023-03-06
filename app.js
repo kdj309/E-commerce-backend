@@ -5,6 +5,7 @@ const { dbconnect } = require("./db");
 const cors = require("cors");
 const { rateLimiterUsingThirdParty } = require("./middleware/ApiRateLimiter");
 const app = express();
+require("dotenv").config();
 dbconnect();
 app.use(bodyParser.json());
 app.use(cookieParser());
@@ -27,6 +28,6 @@ app.use("/api", require("./routes/paymentB"));
 //!7 payment using stripe
 app.use("/api", require("./routes/paywithStripe"));
 //!8 size related routes
-app.listen(3001, () => {
+app.listen(process.env.PORT||3001, () => {
   console.log("server running");
 });
