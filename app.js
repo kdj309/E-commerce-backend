@@ -11,6 +11,10 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 app.use(rateLimiterUsingThirdParty);
+app.use((req, res, next) => {
+      res.header('Access-Control-Allow-Origin', '*');
+      next();
+});
 //!1 Authentication related routes
 app.use("/api", require("./routes/auth"));
 //!2 User related routes
