@@ -1,6 +1,6 @@
 const Stripe = require("stripe");
 require("dotenv").config();
-console.log(process.env.STRIPEKEY)
+
 const sip = Stripe(process.env.STRIPEKEY);
 
 let MY_DOMAIN = process.env.MYAPPURL;
