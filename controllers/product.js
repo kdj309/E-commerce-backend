@@ -81,14 +81,17 @@ exports.createProduct = (req, res) => {
       Availabelstock,
       sizevaluesarry,
     } = fields;
-    console.log(sizevaluesarry);
+    // console.log(sizevaluesarry);
     if (!name || !description || !price || !category) {
       return res.status(400).json({
         error: "Please include all fields",
       });
     }
     let product = new Product(fields);
-    product.size = JSON.parse(sizevaluesarry);
+    if (sizevaluesarry) {
+      product.size = JSON.parse(sizevaluesarry);
+    }
+    
     //handle file here
     if (file.image) {
       if (file.image.size > 3000000) {
@@ -100,7 +103,7 @@ exports.createProduct = (req, res) => {
       product.image.contentType = file.image.type;
       //   console.log(product);
     }
-    console.log(product);
+    // console.log(product);
 
     //save to the DB
     product.save((err, product) => {
@@ -209,7 +212,7 @@ exports.Deleteprodcut = (req, res) => {
 };
 //getting all products
 exports.getAllproducts = (req, res) => {
-  let limit = req.query.limit ? parseInt(req.query.limit) : 25;
+  let limit = req.query.limit ? parseInt(req.query.limit) : 73;
   let sortBy = req.query.sortby ? req.query.sortby : "_id";
   Product.find({})
     .select("-image")

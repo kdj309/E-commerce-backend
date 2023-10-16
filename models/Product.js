@@ -49,6 +49,13 @@ const productSchema = mongoose.Schema(
       data: Buffer,
       contentType: String,
     },
+    tags: {
+      type: [String],
+      default: [],
+    },
+    brand: {
+      type: String,
+    },
   },
   { timestamps: true }
 );

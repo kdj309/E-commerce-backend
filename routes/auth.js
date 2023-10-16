@@ -1,11 +1,10 @@
 const { Router } = require("express");
 const { check } = require("express-validator");
-const { signup, signin, signOut } = require("../controllers/auth");
-const {
-  VerifyUser,
-  isSignIn,
-  VerifyRefresh,
-} = require("../middleware/UserMiddleWares");
+const { signup, signin, signOut, refreshToken } = require("../controllers/auth");
+// const {
+//   VerifyUser,
+//   isSignIn,
+// } = require("../middleware/UserMiddleWares");
 const User = require("../models/User");
 const router = Router();
 //sign-Up
@@ -13,13 +12,14 @@ router.post(
   "/signup",
   [
     check("email")
-      .isEmail()
-      .custom((user) => {
-        return User.findOne({ email: user }).then((user) => {
-          if (user) {
-            return Promise.reject("E-mail already in use");
-          }
-        });
+      .isEmail({
+        ignore_max_length: true,
+      })
+      .custom(async (user) => {
+        const user_1 = await User.findOne({ email: user });
+        if (user_1) {
+          return Promise.reject("E-mail already in use");
+        }
       }),
     check("password")
       .isLength({
@@ -55,5 +55,6 @@ router.get("/signout", signOut);
 // router.get('/test', VerifyUser, (req, res) => {
 //     return res.status(200).json()
 // })
-
+//Refresh Token route
+router.post("/refreshtoken",refreshToken);
 module.exports = router;

@@ -4,30 +4,50 @@ var expressjwt = require("express-jwt");
 const { v4: uuidv4 } = require("uuid");
 require("dotenv").config();
 //Our own verification middleware
-exports.VerifyUser = (req, res, next) => {
-  let token = req.header("authtoken");
+const { TokenExpiredError } = jwt;
+
+const catchError = (err, res) => {
+  if (err instanceof TokenExpiredError) {
+    return res.status(401).send({ message: "Unauthorized! Access Token was expired!" });
+  }
+
+  return res.sendStatus(401).send({ message: "Unauthorized!" });
+}
+const VerifyUser = (req, res, next) => {
+  // console.log(req)
+  let token = req.header("authorization").split(" ")[1];
   // console.log(token)
   if (!token) {
     return res.status(401).json({ errormsg: "please authenticate yourself" });
   }
   try {
     let result = jwt.verify(token, process.env.JWTKEY);
-    req.uid = result.id;
+    req.auth=result;
     next();
   } catch (error) {
+    if (error) {
+      return catchError(error, res);
+    }
     // console.log(error);
-    return res.status(500).json({ errormsg: "Some internal error occured" });
+    // return res.status(500).json({ errormsg: "Some internal error occured" });
   }
 };
 
 //Actual middleware used in this project
 //VerifyUser=combination of isSignIn && isAuthenticated
-exports.isSignIn = expressjwt({
-  secret: process.env.JWTKEY,
-  userProperty: "auth",
-});
+// exports.isSignIn = expressjwt({
+//   secret: process.env.JWTKEY,
+//   userProperty: "auth",
+//   onExpired:function(req, err){
+//     console.log(req);
+//     if (new Date() - err.inner.expiredAt < 5000) { return;}
+//     throw err;
+//   }
+// });
+exports.isSignIn=VerifyUser
 //isAuthenticated middleware
 exports.isAuthenticated = (req, res, next) => {
+  // console.log(req.auth)
   let result = req.profile && req.auth && req.profile._id == req.auth.id;
   if (!result) {
     return res.status(403).json({ errormsg: "Access denied" });
