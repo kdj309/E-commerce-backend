@@ -1,0 +1,2032 @@
+{
+    "products":[
+        {
+            "_id": "63d09b120adb6b32c08326ee",
+            "quantity": 1,
+            "soldStocks": 11,
+            "size": [
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "name": "Highlander",
+            "description": "Tailored Jacket",
+            "price": 852,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 16,
+            "createdAt": "2023-01-25T02:59:30.922Z",
+            "updatedAt": "2023-04-24T18:00:57.567Z",
+            "__v": 4,
+            "tags": [
+                "jacket",
+                "Dress",
+                "men"
+            ],
+            "brand": "Highlander"
+        },
+        {
+            "_id": "63d09b4a0adb6b32c08326ef",
+            "quantity": 1,
+            "soldStocks": 9,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "name": "HIGHLANDER",
+            "description": "Men slim Fit Casual shirt",
+            "price": 539,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 10,
+            "createdAt": "2023-01-25T03:00:26.384Z",
+            "updatedAt": "2023-03-05T09:05:06.823Z",
+            "__v": 0,
+            "tags": [
+                "men",
+                "shirt",
+                "Dress"
+            ],
+            "brand": "Highlander"
+        },
+        {
+            "_id": "63d09bae0adb6b32c08326f0",
+            "quantity": 1,
+            "soldStocks": 9,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "Roadster",
+            "description": "Men Slim Shirt",
+            "price": 639,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 9,
+            "createdAt": "2023-01-25T03:02:06.843Z",
+            "updatedAt": "2023-03-12T03:30:22.903Z",
+            "__v": 0,
+            "tags": [
+                "men",
+                "shirt",
+                "Dress"
+            ],
+            "brand": "Roadster"
+        },
+        {
+            "_id": "63d09c220adb6b32c08326f1",
+            "quantity": 1,
+            "soldStocks": 8,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "Campus Sutra",
+            "description": "Women Printed T-shirt",
+            "price": 439,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 2,
+            "createdAt": "2023-01-25T03:04:02.721Z",
+            "updatedAt": "2023-03-05T16:34:55.947Z",
+            "__v": 0,
+            "tags": [
+                "women",
+                "tshirt",
+                "Dress"
+            ],
+            "brand": "Campus Sutra"
+        },
+        {
+            "_id": "63d09c7c0adb6b32c08326f2",
+            "quantity": 1,
+            "soldStocks": 6,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "INVICTUS",
+            "description": "Men Formal Shirt",
+            "price": 599,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 4,
+            "createdAt": "2023-01-25T03:05:32.980Z",
+            "updatedAt": "2023-04-24T09:33:17.780Z",
+            "__v": 0,
+            "tags": [
+                "men",
+                "shirt",
+                "formal",
+                "Dress"
+            ],
+            "brand": "Invictus"
+        },
+        {
+            "_id": "63d09cc10adb6b32c08326f3",
+            "quantity": 1,
+            "soldStocks": 6,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "HANCOCK",
+            "description": "Men Classic Shirt",
+            "price": 399,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 4,
+            "createdAt": "2023-01-25T03:06:41.834Z",
+            "updatedAt": "2023-02-19T05:33:11.825Z",
+            "__v": 0,
+            "tags": [
+                "men",
+                "shirt",
+                "Dress"
+            ],
+            "brand": "Hancock"
+        },
+        {
+            "_id": "63d09cff0adb6b32c08326f4",
+            "quantity": 1,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "DENNISON",
+            "description": "Men Printed Shirt",
+            "price": 699,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 10,
+            "createdAt": "2023-01-25T03:07:43.778Z",
+            "updatedAt": "2023-01-25T15:39:56.701Z",
+            "__v": 0,
+            "tags": [
+                "shirt",
+                "men",
+                "Dress"
+            ],
+            "brand": "Dennison"
+        },
+        {
+            "_id": "63d09d670adb6b32c08326f5",
+            "quantity": 1,
+            "soldStocks": 3,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "name": "QOMN",
+            "description": "Printed High Low Top",
+            "price": 799,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 7,
+            "createdAt": "2023-01-25T03:09:27.443Z",
+            "updatedAt": "2023-02-18T15:40:27.265Z",
+            "__v": 0,
+            "tags": [
+                "women",
+                "Dress"
+            ],
+            "brand": "Qqmn"
+        },
+        {
+            "_id": "63d09dbb0adb6b32c08326f6",
+            "quantity": 1,
+            "soldStocks": 3,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "name": "HRX",
+            "description": "Men Solid T-shirt",
+            "price": 899,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 7,
+            "createdAt": "2023-01-25T03:10:51.272Z",
+            "updatedAt": "2023-02-19T05:16:54.068Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "men",
+                "Dress"
+            ],
+            "brand": "Hrx"
+        },
+        {
+            "_id": "63d15351327f372994b643f2",
+            "quantity": 1,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "Hardward",
+            "description": "Men Self design Sweater",
+            "price": 1049,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 15,
+            "createdAt": "2023-01-25T16:05:37.141Z",
+            "updatedAt": "2023-01-25T16:05:37.141Z",
+            "__v": 0,
+            "tags": [
+                "sweater",
+                "men",
+                "Dress"
+            ],
+            "brand": "Hardward"
+        },
+        {
+            "_id": "63d937e892d4110f34b5ebcb",
+            "quantity": 1,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "name": "HRX",
+            "description": "Rapid Dry Training T-shirt",
+            "price": 494,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 8,
+            "createdAt": "2023-01-31T15:46:48.867Z",
+            "updatedAt": "2023-01-31T15:46:48.867Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "Dress"
+            ],
+            "brand": "Hrx"
+        },
+        {
+            "_id": "63d9384692d4110f34b5ebcc",
+            "quantity": 1,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "name": "Moda Rapido",
+            "description": "Printed Cool T-shirt",
+            "price": 454,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 10,
+            "createdAt": "2023-01-31T15:48:22.122Z",
+            "updatedAt": "2023-01-31T15:48:22.122Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "men",
+                "Dress"
+            ],
+            "brand": "Moda rapido"
+        },
+        {
+            "_id": "63d938bb92d4110f34b5ebcd",
+            "quantity": 1,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "name": "Here&Now",
+            "description": "Men Colour blocked T-shirt",
+            "price": 399,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 12,
+            "createdAt": "2023-01-31T15:50:19.669Z",
+            "updatedAt": "2023-01-31T16:01:07.967Z",
+            "__v": 0,
+            "tags": [
+                "men",
+                "tshirt",
+                "Dress"
+            ],
+            "brand": "Here&now"
+        },
+        {
+            "_id": "63d9394392d4110f34b5ebce",
+            "quantity": 1,
+            "soldStocks": 1,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                }
+            ],
+            "name": "Levis",
+            "description": "Men Typography T-shirt",
+            "price": 1427,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 17,
+            "createdAt": "2023-01-31T15:52:35.507Z",
+            "updatedAt": "2023-03-11T06:52:10.677Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "men",
+                "Dress"
+            ],
+            "brand": "levis"
+        },
+        {
+            "_id": "63d939d492d4110f34b5ebcf",
+            "quantity": 1,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                }
+            ],
+            "name": "Kook N Keech",
+            "description": "Pure Cotton T-shirt",
+            "price": 692,
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "Availabelstock": 16,
+            "createdAt": "2023-01-31T15:55:00.727Z",
+            "updatedAt": "2023-01-31T15:55:00.727Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "Dress",
+                "men"
+            ],
+            "brand": "kook n keech"
+        },
+        {
+            "_id": "64041228bab65e9cd5e8564b",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Roadster",
+            "description": "Printed Casual Shirt",
+            "price": 647,
+            "quantity": 1,
+            "Availabelstock": 10,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                }
+            ],
+            "createdAt": "2023-03-05T03:53:12.832Z",
+            "updatedAt": "2023-03-05T03:53:12.832Z",
+            "__v": 0,
+            "tags": [
+                "shirt",
+                "Dress",
+                "men"
+            ],
+            "brand": "roadster"
+        },
+        {
+            "_id": "6404275881ed1dec050e09db",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Here&Now",
+            "description": "Slim Fit T-Shirt",
+            "price": 649,
+            "quantity": 1,
+            "Availabelstock": 10,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "createdAt": "2023-03-05T05:23:36.501Z",
+            "updatedAt": "2023-03-05T05:23:36.501Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "Dress",
+                "men"
+            ],
+            "brand": "here&now"
+        },
+        {
+            "_id": "64045bfd0e732b5d3b34140d",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Roadster",
+            "description": "Men Cotton Casual Shirt",
+            "price": 671,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                }
+            ],
+            "createdAt": "2023-03-05T09:08:13.164Z",
+            "updatedAt": "2023-03-05T09:08:13.164Z",
+            "__v": 0,
+            "tags": [
+                "shirt",
+                "Dress",
+                "men"
+            ],
+            "brand": "roadster"
+        },
+        {
+            "_id": "64045c870e732b5d3b341429",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Dennis Lingo",
+            "description": "Men Slim Fit Casual Shirt",
+            "price": 625,
+            "quantity": 1,
+            "Availabelstock": 9,
+            "soldStocks": 1,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "createdAt": "2023-03-05T09:10:31.689Z",
+            "updatedAt": "2023-03-11T06:15:06.266Z",
+            "__v": 0,
+            "tags": [
+                "shirt",
+                "men",
+                "Dress"
+            ],
+            "brand": "dennis lingo"
+        },
+        {
+            "_id": "64045cfd0e732b5d3b341445",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "HIGHLANDER",
+            "description": "Men Casual Shirt",
+            "price": 516,
+            "quantity": 1,
+            "Availabelstock": 10,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "createdAt": "2023-03-05T09:12:29.585Z",
+            "updatedAt": "2023-03-05T09:12:29.585Z",
+            "__v": 0,
+            "tags": [
+                "shirt",
+                "men",
+                "Dress"
+            ],
+            "brand": "Highlander"
+        },
+        {
+            "_id": "64045d920e732b5d3b341461",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Louis Philipee",
+            "description": "Polo Collar T-shirt",
+            "price": 949,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "createdAt": "2023-03-05T09:14:58.840Z",
+            "updatedAt": "2023-03-05T09:14:58.840Z",
+            "__v": 0,
+            "tags": [
+                "tshirt",
+                "Dress",
+                "men"
+            ],
+            "brand": "Louis philippe"
+        },
+        {
+            "_id": "64045f09de9ee05e7a99cb03",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Roadster",
+            "description": "Regular Indigo Checks",
+            "price": 797,
+            "quantity": 1,
+            "Availabelstock": 10,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "createdAt": "2023-03-05T09:21:13.693Z",
+            "updatedAt": "2023-03-05T09:21:13.693Z",
+            "__v": 0,
+            "tags": [
+                "shirt",
+                "Dress",
+                "men"
+            ],
+            "brand": "Roadster"
+        },
+        {
+            "_id": "64045f7bde9ee05e7a99cb1f",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "ADIDAS",
+            "description": "Zip Hooded Jacket",
+            "price": 2759,
+            "quantity": 1,
+            "Availabelstock": 9,
+            "soldStocks": 1,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                }
+            ],
+            "createdAt": "2023-03-05T09:23:07.860Z",
+            "updatedAt": "2023-03-11T06:59:24.954Z",
+            "__v": 0,
+            "tags": [
+                "jacket",
+                "men",
+                "Dress"
+            ],
+            "brand": "Adidas"
+        },
+        {
+            "_id": "64045fdcde9ee05e7a99cb3b",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Powerlook",
+            "description": "Bomber Jacket",
+            "price": 1949,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "createdAt": "2023-03-05T09:24:44.438Z",
+            "updatedAt": "2023-03-05T09:24:44.438Z",
+            "__v": 0,
+            "tags": [
+                "jacket",
+                "men",
+                "Dress"
+            ],
+            "brand": "Powerlook"
+        },
+        {
+            "_id": "6404605cde9ee05e7a99cb57",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Allen Solly",
+            "description": "Solid Bomber Jacket",
+            "price": 1539,
+            "quantity": 1,
+            "Availabelstock": 50,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                }
+            ],
+            "createdAt": "2023-03-05T09:26:52.688Z",
+            "updatedAt": "2023-03-05T09:26:52.688Z",
+            "__v": 0,
+            "tags": [
+                "jacket",
+                "men",
+                "Dress"
+            ],
+            "brand": "Allen solly"
+        },
+        {
+            "_id": "6506d7d9710e0d5d95fcf19c",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Roadster Watch",
+            "description": "Men Analogue and Digital Watch",
+            "price": 1304,
+            "quantity": 1,
+            "Availabelstock": 10,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:41:30.022Z",
+            "updatedAt": "2023-09-17T10:41:30.022Z",
+            "__v": 0,
+            "tags": [
+                "elecronics",
+                "watch"
+            ],
+            "brand": "Roadster"
+        },
+        {
+            "_id": "6506d818710e0d5d95fcf19f",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Titan Watch",
+            "description": "Men Leather Analogue Watch",
+            "price": 1557,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:42:32.976Z",
+            "updatedAt": "2023-09-17T10:42:32.976Z",
+            "__v": 0,
+            "tags": [
+                "electronics",
+                "watch"
+            ],
+            "brand": "titan"
+        },
+        {
+            "_id": "6506d84b710e0d5d95fcf1a2",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Tommy Hilfiger Wallet",
+            "description": "Men Solid Two Fold Wallet",
+            "price": 1499,
+            "quantity": 1,
+            "Availabelstock": 23,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:43:23.965Z",
+            "updatedAt": "2023-09-17T10:43:23.965Z",
+            "__v": 0,
+            "tags": [
+                "wallet"
+            ],
+            "brand": "Tommy Hilfige"
+        },
+        {
+            "_id": "6506d87d710e0d5d95fcf1a5",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Puma Wallet",
+            "description": "Unisex Solid Two Fold Wallet",
+            "price": 1199,
+            "quantity": 1,
+            "Availabelstock": 23,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:44:13.841Z",
+            "updatedAt": "2023-09-17T10:44:13.841Z",
+            "__v": 0,
+            "tags": [
+                "wallet"
+            ],
+            "brand": "Puma"
+        },
+        {
+            "_id": "6506d8ac710e0d5d95fcf1a8",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Tommy Hilfiger belt",
+            "description": "Men Leather Belt",
+            "price": 1739,
+            "quantity": 1,
+            "Availabelstock": 25,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:45:00.826Z",
+            "updatedAt": "2023-09-17T10:45:00.826Z",
+            "__v": 0,
+            "tags": [
+                "belt"
+            ],
+            "brand": "Tommy Hilfiger"
+        },
+        {
+            "_id": "6506d8d4710e0d5d95fcf1ab",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Roadster belt",
+            "description": "Men Artificial Leather Belt",
+            "price": 1499,
+            "quantity": 1,
+            "Availabelstock": 25,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:45:40.383Z",
+            "updatedAt": "2023-09-17T10:45:40.383Z",
+            "__v": 0,
+            "tags": [
+                "belt"
+            ],
+            "brand": "Roadster"
+        },
+        {
+            "_id": "6506d96b710e0d5d95fcf1ae",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Louis Philippe Watch",
+            "description": "Stylish Analog Watch",
+            "price": 899,
+            "quantity": 1,
+            "Availabelstock": 30,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:48:11.626Z",
+            "updatedAt": "2023-09-17T10:48:11.626Z",
+            "__v": 0,
+            "tags": [
+                "watch",
+                "electronics"
+            ],
+            "brand": "Louis Philippe"
+        },
+        {
+            "_id": "6506d992710e0d5d95fcf1b1",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Carlton London Sunglass",
+            "description": "Men Square Sunglasses with UV Protected Lens",
+            "price": 747,
+            "quantity": 1,
+            "Availabelstock": 28,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:48:50.218Z",
+            "updatedAt": "2023-09-17T10:48:50.218Z",
+            "__v": 0,
+            "tags": [
+                "sunglass"
+            ],
+            "brand": "Carlton London"
+        },
+        {
+            "_id": "6506d9b4710e0d5d95fcf1b4",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Voyage Sunglass",
+            "description": "Unisex Round UV Sunglasses",
+            "price": 799,
+            "quantity": 1,
+            "Availabelstock": 28,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:49:24.617Z",
+            "updatedAt": "2023-09-17T10:49:24.617Z",
+            "__v": 0,
+            "tags": [
+                "sunglass"
+            ],
+            "brand": "Voyage"
+        },
+        {
+            "_id": "6506d9d4710e0d5d95fcf1b7",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "Addidas socks",
+            "description": "Men 3 Ankle-Length Socks",
+            "price": 391,
+            "quantity": 1,
+            "Availabelstock": 28,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T10:49:56.597Z",
+            "updatedAt": "2023-09-17T10:49:56.597Z",
+            "__v": 0,
+            "tags": [
+                "socks"
+            ],
+            "brand": "Addidas"
+        },
+        {
+            "_id": "6506e203710e0d5d95fcf1ba",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "OOMPH Jewellery",
+            "description": "Dome Shaped Jhumkas",
+            "price": 480,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:24:51.982Z",
+            "updatedAt": "2023-09-17T11:24:51.982Z",
+            "__v": 0,
+            "tags": [
+                "jhumka"
+            ],
+            "brand": "Oomph"
+        },
+        {
+            "_id": "6506e22b710e0d5d95fcf1bd",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "aadita Jewellery",
+            "description": "Gold-Plated Pearl-Studded Temple Jewellery Set",
+            "price": 1198,
+            "quantity": 1,
+            "Availabelstock": 25,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:25:31.809Z",
+            "updatedAt": "2023-09-17T11:25:31.809Z",
+            "__v": 0,
+            "tags": [
+                "women",
+                "jewellery set"
+            ],
+            "brand": "Aadita"
+        },
+        {
+            "_id": "6506e252710e0d5d95fcf1c0",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "Kushal's Fashion Jewellery",
+            "description": "Gold-Plated Maang Tikka",
+            "price": 522,
+            "quantity": 1,
+            "Availabelstock": 30,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:26:10.301Z",
+            "updatedAt": "2023-09-17T11:26:10.301Z",
+            "__v": 0,
+            "tags": [
+                "women",
+                "tikka"
+            ],
+            "brand": "Kushal"
+        },
+        {
+            "_id": "6506e29c710e0d5d95fcf1c3",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "Zaveri Pearls",
+            "description": "Women Jewellery Set",
+            "price": 382,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:27:24.159Z",
+            "updatedAt": "2023-09-17T11:27:24.159Z",
+            "__v": 0,
+            "tags": [
+                "jewellery set",
+                "women"
+            ],
+            "brand": "Zaveri"
+        },
+        {
+            "_id": "6506e2d2710e0d5d95fcf1c6",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "Rubans Jewellery",
+            "description": "Gold-Plated Jewellery Set",
+            "price": 797,
+            "quantity": 1,
+            "Availabelstock": 25,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:28:18.570Z",
+            "updatedAt": "2023-09-17T11:28:18.570Z",
+            "__v": 0,
+            "tags": [
+                "jewellery set",
+                "women"
+            ],
+            "brand": "Rubans"
+        },
+        {
+            "_id": "6506e324710e0d5d95fcf1c9",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "DressBerry Jewellery",
+            "description": "Contemporary Drop Earrings",
+            "price": 297,
+            "quantity": 1,
+            "Availabelstock": 35,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:29:40.376Z",
+            "updatedAt": "2023-09-17T11:29:40.376Z",
+            "__v": 0,
+            "tags": [
+                "earrings",
+                "women"
+            ],
+            "brand": "DressBerry"
+        },
+        {
+            "_id": "6506e34e710e0d5d95fcf1cc",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "The Pari Jewellery",
+            "description": "Set Of 2 Gold-Plated AD-Studded Bangles",
+            "price": 299,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:30:22.025Z",
+            "updatedAt": "2023-09-17T11:30:22.025Z",
+            "__v": 0,
+            "tags": [
+                "bangles",
+                "women"
+            ],
+            "brand": "The Pari"
+        },
+        {
+            "_id": "6506e374710e0d5d95fcf1cf",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "Sangria Jewellery",
+            "description": "Neckless",
+            "price": 327,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:31:00.296Z",
+            "updatedAt": "2023-09-17T11:31:00.296Z",
+            "__v": 0,
+            "tags": [
+                "jhumkas",
+                "women"
+            ],
+            "brand": "Sangria"
+        },
+        {
+            "_id": "6506e3b1710e0d5d95fcf1d2",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "Jewels Galaxy Jewellery",
+            "description": "Women Bangle-Style Bracelet",
+            "price": 514,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:32:01.606Z",
+            "updatedAt": "2023-09-17T11:32:01.606Z",
+            "__v": 0,
+            "tags": [
+                "bracelet",
+                "women"
+            ],
+            "brand": "Jewels Galaxy"
+        },
+        {
+            "_id": "6506e3d7710e0d5d95fcf1d5",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "DressBerry Jewellery",
+            "description": "Silver Plated Finger Ring",
+            "price": 299,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:32:39.364Z",
+            "updatedAt": "2023-09-17T11:32:39.364Z",
+            "__v": 0,
+            "tags": [
+                "ring",
+                "women"
+            ],
+            "brand": "DressBerry"
+        },
+        {
+            "_id": "6506e7bc710e0d5d95fcf1d8",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "NOISE earbuds",
+            "description": "Aero Truly Wireless Earbuds",
+            "price": 1999,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:49:16.607Z",
+            "updatedAt": "2023-09-17T11:49:16.607Z",
+            "__v": 0,
+            "tags": [
+                "earbud",
+                "men",
+                "womem"
+            ],
+            "brand": "Noise"
+        },
+        {
+            "_id": "6506e7ee710e0d5d95fcf1db",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "boAt earbuds",
+            "description": "Airdopes 163 M TWS Earbuds",
+            "price": 1299,
+            "quantity": 1,
+            "Availabelstock": 40,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:50:06.506Z",
+            "updatedAt": "2023-09-17T11:50:06.506Z",
+            "__v": 0,
+            "tags": [
+                "earbud",
+                "men",
+                "women"
+            ],
+            "brand": "Boat"
+        },
+        {
+            "_id": "6506e814710e0d5d95fcf1de",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "realme earbuds",
+            "description": "Air 3S True Wireless Earbuds",
+            "price": 4999,
+            "quantity": 1,
+            "Availabelstock": 40,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:50:44.127Z",
+            "updatedAt": "2023-09-17T11:50:44.127Z",
+            "__v": 0,
+            "tags": [
+                "earbud",
+                "men",
+                "women"
+            ],
+            "brand": "realme"
+        },
+        {
+            "_id": "6506e884710e0d5d95fcf1e1",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "boAt neckband",
+            "description": "Rockerz 255 Pro+ Wireless Earphones",
+            "price": 1049,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:52:36.694Z",
+            "updatedAt": "2023-09-17T11:52:36.694Z",
+            "__v": 0,
+            "tags": [
+                "earphone",
+                "men",
+                "women"
+            ],
+            "brand": "Boat"
+        },
+        {
+            "_id": "6506e8ab710e0d5d95fcf1e4",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "Portronics headset",
+            "description": "Solid Muffs M1 Wireless Bluetooth Over-Ear Headphone",
+            "price": 1249,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:53:15.539Z",
+            "updatedAt": "2023-09-17T11:53:15.539Z",
+            "__v": 0,
+            "tags": [
+                "headphone",
+                "men",
+                "women"
+            ],
+            "brand": "Portronics"
+        },
+        {
+            "_id": "6506e8dd710e0d5d95fcf1e7",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "boAt earbuds",
+            "description": "Airdopes 131 Pro M TWS Earbuds",
+            "price": 1399,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:54:05.285Z",
+            "updatedAt": "2023-09-17T11:54:05.285Z",
+            "__v": 0,
+            "tags": [
+                "earbud",
+                "men",
+                "women"
+            ],
+            "brand": "Boat"
+        },
+        {
+            "_id": "6506e8fd710e0d5d95fcf1ea",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "mivi earbuds",
+            "description": "P70 DuoPods Earbuds",
+            "price": 999,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:54:37.372Z",
+            "updatedAt": "2023-09-17T11:54:37.372Z",
+            "__v": 0,
+            "tags": [
+                "earbud",
+                "men",
+                "women"
+            ],
+            "brand": "mivi"
+        },
+        {
+            "_id": "6506e91f710e0d5d95fcf1ed",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "Fasttrack neckband",
+            "description": "Solid In-Ear Bluetooth Wireless Earphones",
+            "price": 1999,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:55:11.217Z",
+            "updatedAt": "2023-09-17T11:55:11.217Z",
+            "__v": 0,
+            "tags": [
+                "earphone",
+                "men",
+                "women"
+            ],
+            "brand": "Fasttrack"
+        },
+        {
+            "_id": "6506e949710e0d5d95fcf1f0",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "boAt Speaker",
+            "description": "Solid Speaker",
+            "price": 1999,
+            "quantity": 1,
+            "Availabelstock": 15,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:55:53.310Z",
+            "updatedAt": "2023-09-17T11:55:53.310Z",
+            "__v": 0,
+            "tags": [
+                "speaker",
+                "men",
+                "women"
+            ],
+            "brand": "Boat"
+        },
+        {
+            "_id": "6506e97f710e0d5d95fcf1f3",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "NOISE earbuds",
+            "description": "Buds Venus Wireless Earbuds",
+            "price": 1899,
+            "quantity": 1,
+            "Availabelstock": 25,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:56:47.365Z",
+            "updatedAt": "2023-09-17T11:56:47.365Z",
+            "__v": 0,
+            "tags": [
+                "earbud",
+                "men",
+                "women"
+            ],
+            "brand": "Noise"
+        },
+        {
+            "_id": "6506ea3f710e0d5d95fcf1f6",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Louis Philippe Jeans",
+            "description": "Pure Cotton Slim Fit Shirt",
+            "price": 2159,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T11:59:59.856Z",
+            "updatedAt": "2023-09-17T11:59:59.856Z",
+            "__v": 0,
+            "tags": [
+                "men",
+                "shirt"
+            ],
+            "brand": "Louis Philippe"
+        },
+        {
+            "_id": "6506edcc710e0d5d95fcf1f9",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Biba Kurta",
+            "description": "Women Yoke Design Kurta with Trousers With Dupatta",
+            "price": 2144,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "createdAt": "2023-09-17T12:15:08.607Z",
+            "updatedAt": "2023-09-17T12:15:08.607Z",
+            "__v": 0,
+            "tags": [
+                "women",
+                "kurta"
+            ],
+            "brand": "Biba"
+        },
+        {
+            "_id": "6506edf6710e0d5d95fcf1fc",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Biba Kurta",
+            "description": "Women Embroidered Kurta Set",
+            "price": 1949,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                }
+            ],
+            "createdAt": "2023-09-17T12:15:50.361Z",
+            "updatedAt": "2023-09-17T12:15:50.361Z",
+            "__v": 0,
+            "tags": [
+                "kurta",
+                "Dress",
+                "women"
+            ],
+            "brand": "Biba"
+        },
+        {
+            "_id": "6506ee12710e0d5d95fcf1ff",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "PUMA Night suit",
+            "description": "Women Loungewear Night suit",
+            "price": 3449,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "createdAt": "2023-09-17T12:16:18.448Z",
+            "updatedAt": "2023-09-17T12:16:18.448Z",
+            "__v": 0,
+            "tags": [
+                "women",
+                "night suit",
+                "Dress"
+            ],
+            "brand": "Puma"
+        },
+        {
+            "_id": "6506ee38710e0d5d95fcf202",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Antheaa Dress",
+            "description": "Self Design Chiffon Midi Dress",
+            "price": 1229,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "createdAt": "2023-09-17T12:16:56.927Z",
+            "updatedAt": "2023-09-17T12:16:56.927Z",
+            "__v": 0,
+            "tags": [
+                "midi",
+                "women",
+                "Dress"
+            ],
+            "brand": "Antheaa"
+        },
+        {
+            "_id": "6506ee6e710e0d5d95fcf205",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Libas Dress",
+            "description": "Ethnic Motifs Pure Cotton dress",
+            "price": 2239,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "createdAt": "2023-09-17T12:17:50.288Z",
+            "updatedAt": "2023-09-17T12:17:50.288Z",
+            "__v": 0,
+            "tags": [
+                "cotton",
+                "women",
+                "Dress"
+            ],
+            "brand": "Libas"
+        },
+        {
+            "_id": "6506ee99710e0d5d95fcf208",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Anouk Saree",
+            "description": "Ethnic Motifs Kanjeevaram Pure Georgette Saree",
+            "price": 1994,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "createdAt": "2023-09-17T12:18:33.324Z",
+            "updatedAt": "2023-09-17T12:18:33.324Z",
+            "__v": 0,
+            "tags": [
+                "saree",
+                "women",
+                "Dress"
+            ],
+            "brand": "Anouk"
+        },
+        {
+            "_id": "6506eebd710e0d5d95fcf20b",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Anouk Saree",
+            "description": "Banarasi Pure Silk Saree",
+            "price": 994,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "createdAt": "2023-09-17T12:19:09.560Z",
+            "updatedAt": "2023-09-17T12:19:09.560Z",
+            "__v": 0,
+            "tags": [
+                "saree",
+                "women",
+                "Dress"
+            ],
+            "brand": "Anouk"
+        },
+        {
+            "_id": "6506eee4710e0d5d95fcf20e",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Mitera Saree",
+            "description": "Pink Woven Silk Blend Saree",
+            "price": 995,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                },
+                {
+                    "_id": "63d504c0328c8d26a8959c8b",
+                    "name": "XL"
+                },
+                {
+                    "_id": "63d25ae52cfec5185816f585",
+                    "name": "XXL"
+                }
+            ],
+            "createdAt": "2023-09-17T12:19:48.253Z",
+            "updatedAt": "2023-09-17T12:19:48.253Z",
+            "__v": 0,
+            "tags": [
+                "saree",
+                "women",
+                "Dress"
+            ],
+            "brand": "Mitera"
+        },
+        {
+            "_id": "6506efa8710e0d5d95fcf211",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Anouk Saree",
+            "description": "Woven Design Kanjeevaram Pure Silk Saree",
+            "price": 664,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "createdAt": "2023-09-17T12:23:04.597Z",
+            "updatedAt": "2023-09-17T12:23:04.597Z",
+            "__v": 0,
+            "tags": [
+                "saree",
+                "women",
+                "Dress"
+            ],
+            "brand": "Anouk"
+        },
+        {
+            "_id": "6516b219040b147fdbac405f",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Wrogn",
+            "description": "Men Colourblocked Sweater",
+            "price": 1033,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                }
+            ],
+            "tags": [
+                "men",
+                "Sweater",
+                "Dress"
+            ],
+            "brand": "Wrogn",
+            "createdAt": "2023-09-29T11:16:42.599Z",
+            "updatedAt": "2023-09-29T11:16:42.599Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516d470232aa550ed3eaec0",
+            "category": {
+                "_id": "651d3052afc5735504fb168b",
+                "name": "Dress"
+            },
+            "name": "Anouk",
+            "description": "Floral Printed Saree",
+            "price": 755,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [
+                {
+                    "_id": "63d505a521663120a45caac9",
+                    "name": "S"
+                },
+                {
+                    "_id": "63d504a0328c8d26a8959c8a",
+                    "name": "M"
+                },
+                {
+                    "_id": "63d25ac62cfec5185816f584",
+                    "name": "L"
+                }
+            ],
+            "tags": [
+                "Dress",
+                "women"
+            ],
+            "brand": "Anouk",
+            "createdAt": "2023-09-29T13:43:12.082Z",
+            "updatedAt": "2023-09-29T13:43:12.082Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516d579232aa550ed3eaec6",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "Realme",
+            "description": "TechLife Buds T100",
+            "price": 1499,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "tags": [
+                "women",
+                "men"
+            ],
+            "brand": "Realme",
+            "createdAt": "2023-09-29T13:47:37.161Z",
+            "updatedAt": "2023-09-29T13:47:37.161Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516d620232aa550ed3eaec9",
+            "category": {
+                "_id": "6506cda72bb4e690d5c12480",
+                "name": "Audio Gadgets"
+            },
+            "name": "Boult Audio",
+            "description": "Y1 True Wireless Earbuds",
+            "price": 1399,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "tags": [
+                "women",
+                "men"
+            ],
+            "brand": "Boult",
+            "createdAt": "2023-09-29T13:50:24.782Z",
+            "updatedAt": "2023-09-29T13:50:24.782Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516d83d232aa550ed3eaed2",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "PUMA Gloves",
+            "description": "Training Essential Premium Gloves",
+            "price": 809,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "tags": [
+                "men",
+                "women"
+            ],
+            "brand": "PUMA",
+            "createdAt": "2023-09-29T13:59:25.473Z",
+            "updatedAt": "2023-09-29T13:59:25.473Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516d89c232aa550ed3eaed5",
+            "category": {
+                "_id": "6506ce012bb4e690d5c12482",
+                "name": "Accessories"
+            },
+            "name": "HRX SOCKS",
+            "description": "SOCKS",
+            "price": 809,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "tags": [
+                "men",
+                "women"
+            ],
+            "brand": "HRX",
+            "createdAt": "2023-09-29T14:01:00.182Z",
+            "updatedAt": "2023-09-29T14:01:00.182Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516d9d2232aa550ed3eaed8",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "GIVA",
+            "description": "925 Sterling Silver Ring",
+            "price": 2287,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "tags": [
+                "women",
+                "ring"
+            ],
+            "brand": "GIVA",
+            "createdAt": "2023-09-29T14:06:10.463Z",
+            "updatedAt": "2023-09-29T14:06:10.463Z",
+            "__v": 0
+        },
+        {
+            "_id": "6516da40232aa550ed3eaedb",
+            "category": {
+                "_id": "6506cdd42bb4e690d5c12481",
+                "name": "Jewellery"
+            },
+            "name": "GIVA",
+            "description": "Woman 925 Silver Bracelet",
+            "price": 1847,
+            "quantity": 1,
+            "Availabelstock": 20,
+            "soldStocks": 0,
+            "size": [],
+            "tags": [
+                "women",
+                "bracelet"
+            ],
+            "brand": "GIVA",
+            "createdAt": "2023-09-29T14:08:00.016Z",
+            "updatedAt": "2023-09-29T14:08:00.016Z",
+            "__v": 0
+        }
+    ]
+}
