@@ -1,6 +1,6 @@
 import os
 import bs4
-from langchain_pinecone import PineconeVectorStore
+from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.document_loaders import JSONLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -28,16 +28,16 @@ loader = JSONLoader(file_path="./products.json", jq_schema=".products[]", text_c
 documents = loader.load()
 
 #splitting the documents
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
 all_splits = text_splitter.split_documents(documents)
 
 #creating the faiss index using hugging face model
-vectorstore = PineconeVectorStore.from_documents(all_splits, HuggingFaceEmbeddings(),index_name=os.environ.get("PINECONE_INDEX_NAME"))
+vectorstore = FAISS.from_documents(all_splits, HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2"))
 
-retriever = vectorstore.as_retriever(search_type="similarity")
+retriever = vectorstore.as_retriever(search_type="similarity",search_kwargs={"k":3})
 
 #initializing the GROQ chat
-llm = ChatGroq(temperature=0, model_name="llama3-70b-8192",groq_api_key=GROQ_API_KEY)
+llm = ChatGroq(temperature=0.7, model_name="llama3-70b-8192",groq_api_key=GROQ_API_KEY)
 
 #Langchain chain for QA
 prompt = hub.pull("rlm/rag-prompt")
